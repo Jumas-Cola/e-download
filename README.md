@@ -14,3 +14,7 @@ python3 e-download.py <urls> <download>
 Warning
 ------------
 You need VPN or Proxy to run this script, if https://e-site.org blocked in your country.
+
+Latest geckodriver.exe:
+------------
+https://github.com/mozilla/geckodriver/releases
