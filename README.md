@@ -5,11 +5,12 @@ e-download ![Python 3.6](https://pp.userapi.com/c846523/v846523407/b716d/N3RXKWF
 Usage:
 ------------
 ```shell
-python3 e-download.py <urls> <download>
+python3 e-download.py <urls> <download> <threads>
 ```
 
 * <***urls***> - may be C:\path_to\urls.txt OR https://e-site.org/g/url1/,https://e-site.org/g/url2/...
 * <***download***> - True/False (only text links or need to download. By default: True)
+* <***threads***> - count of browser windows
 
 Warning
 ------------
