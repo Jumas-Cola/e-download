@@ -9,7 +9,7 @@ python3 e-download.py <urls> <download> <threads>
 ```
 
 * <***urls***> - may be C:\path_to\urls.txt OR https://e-site.org/g/url1/,https://e-site.org/g/url2/...
-* <***download***> - True/False (only text links or need to download. By default: True)
+* <***download***> - -t/-f (only text links or need to download. By default: -t)
 * <***threads***> - count of browser windows
 
 Warning
