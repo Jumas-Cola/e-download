@@ -120,7 +120,7 @@ if __name__ == '__main__':
 
         while number != prev_number:
             links_a = browser.find_elements_by_css_selector(
-                'div.gdtm > div > a')
+                'div[class^="gdt"] > div > a')
             for a in links_a:
                 href = a.get_attribute('href')
                 pages.append(href)
